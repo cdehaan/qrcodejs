@@ -75,6 +75,7 @@ var QRCode;
 		}
 	};
 
+	// QRCodeModel constructor function
 	function QRCodeModel(typeNumber, errorCorrectLevel) {
 		this.typeNumber = typeNumber;
 		this.errorCorrectLevel = errorCorrectLevel;
